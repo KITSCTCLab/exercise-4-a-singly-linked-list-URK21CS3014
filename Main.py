@@ -38,7 +38,7 @@ class LinkedList:
         """
         temp = self.head
         while(temp):
-            print temp.data,
+            print (temp.data)
             temp = temp.next
 
 
