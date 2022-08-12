@@ -72,7 +72,7 @@ class Solution:
             if second is not None:
                     second = second.next
   
-          if carry > 0:
+        if carry > 0:
             temp.next = Node(carry)
         
         
